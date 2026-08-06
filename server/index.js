@@ -9,7 +9,9 @@ const cors = require("cors");
 App.use(cors({
     origin: [
         "https://devadelani.com.ng",
+        "https://devadelani.vercel.app",
         "http://localhost:3000",
+
 
     ],
     methods: ["GET", "POST"],

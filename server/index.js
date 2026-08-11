@@ -14,7 +14,7 @@ App.use(cors({
 
 
     ],
-    methods: ["GET", "POST"],
+    credentials: true,
 }));
 
 
